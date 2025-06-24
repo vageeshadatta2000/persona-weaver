@@ -1,0 +1,28 @@
+# --- Secrets ---
+# This is the most important part. Never commit your environment variables.
+.env
+
+# --- Python ---
+# Ignore the Python cache folder and compiled files
+__pycache__/
+*.pyc
+
+# --- Virtual Environment ---
+# Ignore common virtual environment folders.
+# The contents can be re-created from requirements.txt.
+venv/
+.venv/
+env/
+.env/
+
+# --- IDE / Editor Configuration ---
+# Ignore configuration files from popular editors
+.vscode/
+.idea/
+
+# --- Operating System Files ---
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows thumbnail cache
+Thumbs.db

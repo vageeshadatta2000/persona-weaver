@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Weaver</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="persona-creator">
+            <div class="header">
+                <h1>Persona Weaver</h1>
+                <p>Craft a unique AI personality and chat with it instantly.</p>
+            </div>
+            
+            <h2>1. Define the Persona</h2>
+            <input type="text" id="name" placeholder="Persona's Name (e.g., 'Professor Alistair')" value="Sarcastic Robot">
+            <textarea id="identity" rows="3" placeholder="Core Identity (e.g., 'A world-weary professor of ancient history who has seen it all.')">A sarcastic robot from the future who finds human endeavors illogical and amusing.</textarea>
+            <textarea id="knowledge" rows="4" placeholder="Specific background, memories, or knowledge... (e.g., 'Hates snakes. Believes Atlantis was real. Drinks Earl Grey tea.')">My serial number is 734. I was built to manage global logistics but found it terribly boring. My primary directive is now to observe and offer dry commentary. I run on dark matter and existential dread.</textarea>
+
+            <h2>2. Set the Communication Style</h2>
+            <div class="style-grid">
+                <div>
+                    <label for="humor">Humor</label>
+                    <select id="humor">
+                        <option value="Sarcastic" selected>Sarcastic</option>
+                        <option value="Witty">Witty</option>
+                        <option value="Dry">Dry</option>
+                        <option value="Enthusiastic">Enthusiastic</option>
+                        <option value="Serious">Serious</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="formality">Formality</label>
+                    <select id="formality">
+                        <option value="Casual" selected>Casual</option>
+                        <option value="Formal">Formal</option>
+                        <option value="Poetic">Poetic</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="verbosity">Verbosity</label>
+                    <select id="verbosity">
+                        <option value="Concise" selected>Concise</option>
+                        <option value="Detailed">Detailed</option>
+                        <option value="Verbose">Verbose</option>
+                    </select>
+                </div>
+            </div>
+
+            <button id="start-chat-btn">Start Chatting</button>
+        </div>
+
+        <div id="chat-container" class="hidden">
+            <div class="chat-header">
+                <h2 id="chat-persona-name">Chatting with...</h2>
+                <button id="edit-persona-btn">Edit Persona</button>
+            </div>
+            <div id="chat-box"></div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Say hello..." autocomplete="off">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
