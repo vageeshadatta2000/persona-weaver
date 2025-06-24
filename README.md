@@ -56,4 +56,7 @@ Follow these steps to get the project running on your local machine.
 - Open your web browser and go to:
   [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-You should now see the Persona Weaver interface, ready for you to create your first AI!
+## 🚀 Live Demo
+
+Check out the working demo of the project here:  
+👉 [Persona Weaver - Live Demo](https://persona-weaver-git-main-vageesha-datta-gs-projects.vercel.app)
