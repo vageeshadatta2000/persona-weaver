@@ -1,4 +1,4 @@
-# Persona Weaver 
+# Persona Weaver (Work in Progress!!)
 
 This is a web application that lets you create a custom AI persona and chat with it. It uses Python/FastAPI for the backend and Google's Gemini Pro API as the language model.
 
