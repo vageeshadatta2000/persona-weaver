@@ -2,6 +2,11 @@
 
 This is a web application that lets you create a custom AI persona and chat with it. It uses Python/FastAPI for the backend and Google's Gemini Pro API as the language model.
 
+## 🚀 Try the Live Live Demo
+
+Check out the working demo of the project here:  
+👉 [Persona Weaver - Live Demo](https://persona-weaver-git-main-vageesha-datta-gs-projects.vercel.app)
+
 ## 🚀 Setup and Execution
 
 Follow these steps to get the project running on your local machine.
@@ -15,7 +20,7 @@ Follow these steps to get the project running on your local machine.
 ### 2. Set Up the Project
 
 - **Clone or Download:** Get all these project files onto your computer.
-- **Open a Terminal:** Navigate into the `persona-weaver-gemini` directory.
+- **Open a Terminal:** Navigate into the `persona-weaver` directory.
 - **Create a Virtual Environment:**
   ```bash
   python -m venv venv
@@ -56,7 +61,4 @@ Follow these steps to get the project running on your local machine.
 - Open your web browser and go to:
   [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-## 🚀 Live Demo
 
-Check out the working demo of the project here:  
-👉 [Persona Weaver - Live Demo](https://persona-weaver-git-main-vageesha-datta-gs-projects.vercel.app)
